@@ -25,7 +25,7 @@ const CartItem = ({ product, onRemove, onUpdateQuantity }) => {
                         </option>
                     ))}
                 </select> */}
-                <button className="remove-btn" onClick={() => onRemove(product)}>Remove</button>
+                {/* <button className="remove-btn" onClick={() => onRemove(product)}>Remove</button> */}
             </div>
         </div>
     );
